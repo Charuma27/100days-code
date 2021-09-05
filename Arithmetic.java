@@ -10,22 +10,19 @@ public class Arithmetic
         
         Scanner s = new Scanner(System.in);
         System.out.println("Enter first number:");
-        int num1 = s.nextInt();
+        int x = s.nextInt();
         
         System.out.println("Enter second number:");
-        int num2 = s.nextInt();
+        int y = s.nextInt();
         
-        int sum=num1+num2;
-        System.out.println("The sum is",+ sum);
-        
-        int sub=num1-num2;
-        System.out.println("The subtraction is",+sub);
-        
-        int product=num1*num2;
-        System.out.println("The product is",+product);
-        
-        int divide=num1/num2;
-        System.out.println("The division is",+divide);
+        int a=x+y;
+        int b=x-y;
+        int c=x*y;
+        int d=x/y;
+        System.out.println("The sum is"+ a);
+        System.out.println("The subtraction is"+ b);
+        System.out.println("The product is"+ c);
+        System.out.println("The division is"+ d);
         
     }
 
