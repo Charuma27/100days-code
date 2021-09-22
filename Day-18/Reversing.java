@@ -3,19 +3,19 @@ public class Reversing
 {
 	public static void main(String args[])
 	{
-		String w;
-        Scanner in=new Scanner(System.in);
-        System.out.print("Enter a String: ");
-        w=in.nextLine();
-        System.out.print("After reverse string is: ");
+		String sentance;
+                Scanner in=new Scanner(System.in);
+                System.out.print("Enter a String: ");
+                sentance=in.nextLine();
+                System.out.print("After reverse string is: ");
 
-        int i=w.length();
-        while(i>0)
-        {
-			System.out.print(w.charAt(i-1));
-            i--;
+                int i=sentance.length();
+                while(i>0)
+                {
+			System.out.print(sentance.charAt(i-1));
+                        i--;
 
-        }
+                }
 
-    }
+         }
 }
